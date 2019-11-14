@@ -1,0 +1,6 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: hello-configmap
+data:
+  hello-razee-ct_prod-razee_us-south: e8e9fa6b7827d7898d04a218fa69f327db7fc2b4
