@@ -3,4 +3,4 @@ kind: ConfigMap
 metadata:
   name: hello-configmap
 data:
-  hello-razee-ct_prod-razee_us-south: e8e9fa6b7827d7898d04a218fa69f327db7fc2b4
+  hello-razee-ct_prod-razee_us-south: 1d58b94b4706661c62680e6da8e6fc234255303b
