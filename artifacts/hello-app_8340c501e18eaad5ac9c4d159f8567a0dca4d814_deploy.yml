@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: hello-app
-        image: us.icr.io/jauninb-kube-razee/hello-razee-ct:7-master-8340c501-20201028145817
+        image: us.icr.io/jauninb-kube-razee/hello-razee-ct:8-master-8340c501-20201028150746
         ports:
         - containerPort: 8080
