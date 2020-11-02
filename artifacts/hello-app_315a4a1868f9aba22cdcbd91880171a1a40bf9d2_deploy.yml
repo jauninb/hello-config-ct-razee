@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-app
+  labels:
+    app: hello-app
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: hello-app
+  template:
+    metadata:
+      labels:
+        app: hello-app
+    spec:
+      containers:
+      - name: hello-app
+        image: us.icr.io/jauninb-kube-razee/hello-razee-ct:12-master-315a4a18-20201102142014
+        ports:
+        - containerPort: 8080
+        resources:
+          limits:
+            memory: 32Mi
+            cpu: 125m
+          requests:
+            memory: 32Mi
+            cpu: 125m
